@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+:root {
+  --primary-color: #F12B16;
+  --text-color: #111111;
+  --background-color: #FFFCF7;
+  --white-color: #FFFFFF;
+  --border-color: #E7E2DC;
+  --muted-color: #292929;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+
+
+

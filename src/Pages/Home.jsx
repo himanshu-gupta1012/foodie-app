@@ -4,10 +4,42 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
 import { ImSpoonKnife } from "react-icons/im";
 import { FaShop } from "react-icons/fa6";
+import CategoryCard from '../Components/CategoryCard';
+import DishesCategoryCard from '../Components/DishesCategoryCard';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+// import categories from '../data/categories.json'
 
 
 
 const Home = () => {
+    const [categories, setCategories] = useState([]);
+    const [dishes, setDishes] = useState([]);
+
+    const fetchCategories = async () => {
+        try {
+            const res = await axios.get('./data/categories.json')
+            setCategories(res.data)
+        } catch (error) {
+            console.log(error);
+            
+        }
+    }
+
+    const fetchDishes = async () => {
+        try {
+            const res1 = await axios.get('/data/dishes.json')
+            setDishes(res1.data)
+        } catch (error) {
+            console.log(error);
+            
+        }
+    }
+
+    useEffect(() => {
+        fetchCategories()
+        fetchDishes()
+    },[])
     return (
         <>
             <main className="home-page">
@@ -25,10 +57,10 @@ const Home = () => {
                         {/* Description */}
                         <div className="statics-des">
                             <p>
-                            Discover a variety of delicious food from the best <br />
-                            restaurants. Fresh ingredients, great taste, <br />
-                            delivered to your door.
-                        </p>
+                                Discover a variety of delicious food from the best <br />
+                                restaurants. Fresh ingredients, great taste, <br />
+                                delivered to your door.
+                            </p>
                         </div>
                         {/* Order Now button */}
                         <button className='hero-btn'>Order Now <FaArrowRightLong /></button>
@@ -66,8 +98,42 @@ const Home = () => {
                     </div>
 
                 </section>
-
             </main>
+
+            <section className="food-category-outer">
+                <div className="food-category-inner">
+                    <h1>Food Categories</h1>
+                    <p>View All <FaArrowRightLong /></p>
+                </div>
+
+                <div className="category-list">
+                    {categories.map((item) => (
+                        <CategoryCard
+                            key={item.id}
+                            name={item.name}
+                            image={item.image}
+                        />
+                    ))}
+                </div>
+            </section>
+
+            <section className='dishes-category-outer'>
+                <div className="dishes-category-inner">
+                    <h1>Popular Dishes</h1>
+                    <p>View All <FaArrowRightLong /></p>
+                </div>
+
+                <div className="dishes-list">
+                    {dishes.map((item)=> (
+                        <DishesCategoryCard
+                            key={item._id}
+                            name={item.name}
+                            rating={item.rating}
+                            price={item.price}
+                            image={item.image}/>
+                    ))}
+                </div>
+            </section>
         </>
     )
 }

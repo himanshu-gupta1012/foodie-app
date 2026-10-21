@@ -1,0 +1,49 @@
+[
+    {
+        "_id": 1,
+        "name": "Cheese Pizza",
+        "rating": "4.8",
+        "price": "299",
+        "image": "/images/pizza2.png"
+    },
+
+    {
+        "_id": 2,
+        "name": "Chicken Burger",
+        "rating": "4.6",
+        "price": "199",
+        "image": "/images/burger2.png"
+    },
+
+    {
+        "_id": 3,
+        "name": "Chicken Biryani",
+        "rating": "4.9",
+        "price": "249",
+        "image": "/images/biryani2.png"
+    },
+
+    {
+        "_id": 4,
+        "name": "Paneer Tikka",
+        "rating": "4.5",
+        "price": "199",
+        "image": "/images/paneer.png"
+    },
+
+    {
+        "_id": 5,
+        "name": "Pasta Alfredo",
+        "rating": "4.4",
+        "price": "179",
+        "image": "/images/pasta.png"
+    },
+
+    {
+        "_id": 6,
+        "name": "French Fries",
+        "rating": "4.3",
+        "price": "99",
+        "image": "/images/frenchfries.png"
+    }
+]

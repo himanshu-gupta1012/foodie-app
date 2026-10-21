@@ -5,6 +5,10 @@
     
 }
 
+.hero {
+    height: 600px;
+}
+
 .hero-img img {
     width: 100%;
     display: block;
@@ -78,3 +82,48 @@
     display: flex;
     gap: 10px;
 }
+
+.food-category-outer {
+    width: 90%;
+    height: 300px;
+    /* background-color: red; */
+    margin: 50px auto;
+}
+
+.food-category-inner {
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-category-inner h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.food-category-inner p {
+    color: var(--primary-color);
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+/* .dishes-category-list {
+    width: 100%;
+    height: 240px;
+    background-color: blue;
+}
+
+.dishes-category-img {
+    height: 50%;
+    width: 13%;
+    background-color: brown;
+} */

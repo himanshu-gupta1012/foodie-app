@@ -1,0 +1,121 @@
+/* .dishes-category-list {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.dishes-category-list img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.dishes-category-list img:hover {
+    transform: scale(1.05);
+    border-radius: 12px;
+}
+
+.dishes-category-list h4 {
+    margin-top: 8px;
+    font-size: 16px;
+} */
+
+.dishes-category-outer {
+    width: 90%;
+    height: 400px;
+    /* background-color: red; */
+    margin: 50px auto;
+}
+
+.dishes-category-inner {
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-category-inner h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.dishes-category-inner p {
+    color: var(--primary-color);
+}
+
+.dishes-category-img {
+    height: 70%;
+    /* background-color: black; */
+    /* margin-bottom: 5px; */
+}
+
+.dishes-category-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.dishes-description {
+    height: 50px;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-description p {
+    font-weight: 700;
+}
+
+.rate {
+    color: var(--primary-color);
+}
+
+.dishes-des {
+    height: 50px;
+    width: 25%;
+    /* background-color: blueviolet; */
+    /* padding: 10px; */
+    gap: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-price {
+    height: 50px;
+    width: 100%;
+    /* background-color: azure; */
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-btn {
+    height: 35px;
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.dishes-list {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 20px;
+    width: 100%;
+}

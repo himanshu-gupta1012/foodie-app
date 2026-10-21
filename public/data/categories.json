@@ -1,0 +1,37 @@
+[
+    {
+        "_id": 1,
+        "name": "Pizza",
+        "image": "/images/pizza.png"
+    },
+    {
+        "_id": 2,
+        "name": "Burger",
+        "image": "/images/burger.png"
+    },
+    {
+        "_id": 3,
+        "name": "Biryani",
+        "image": "/images/biryani.png"
+    },
+    {
+        "_id": 4,
+        "name": "Chinese",
+        "image": "/images/noodles.png"
+    },
+    {
+        "_id": 5,
+        "name": "Sandwich",
+        "image": "/images/sandwich.png"
+    },
+    {
+        "_id": 6,
+        "name": "Desserts",
+        "image": "/images/cake.png"
+    },
+    {
+        "_id": 7,
+        "name": "Drinks",
+        "image": "/images/drinks.png"
+    }
+]

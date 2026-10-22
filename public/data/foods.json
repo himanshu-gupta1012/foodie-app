@@ -1,0 +1,109 @@
+[
+    {
+        "_id": 1,
+        "name": "Margherita Pizza",
+        "description": "Classic delight with 100% real mozzarella cheese.",
+        "rating": "4.5",
+        "price": "299",
+        "image": "/images/margheritapizza.png"
+    },
+
+    {
+        "_id": 2,
+        "name": "Chicken Burger",
+        "description": "Crispy chicken with fresh letuce and special sauce.",
+        "rating": "4.31",
+        "price": "199",
+        "image": "/images/chickenburger.png"
+    },
+
+    {
+        "_id": 3,
+        "name": "Chicken Biryani",
+        "description": "Fragrant basmati rice with tender chicken pieces.",
+        "rating": "4.6",
+        "price": "249",
+        "image": "/images/biryani.png"
+    },
+
+    {
+        "_id": 4,
+        "name": "Pasta Alfredo",
+        "description": "Rich Alfredo",
+        "rating": "Rich and creamy white sauce pasta.",
+        "price": "229",
+        "image": "/images/pastaalfredo.png"
+    },
+
+    {
+        "_id": 5,
+        "name": "French Fries",
+        "description": "Crispy and golden potato fries with special seasoning.",
+        "rating": "4.2",
+        "price": "149",
+        "image": "/images/frenchfries.png"
+    },
+
+    {
+        "_id": 6,
+        "name": "Cold Coffee",
+        "description": "Chilled coffee with a perfect blend of flavor.",
+        "rating": "4.3",
+        "price": "129",
+        "image": "/images/coldcoffee.png"
+    },
+
+    {
+        "_id": 7,
+        "name": "Pepperoni Pizza",
+        "description": "Loaded with pepperoni and extra cheese.",
+        "rating": "4.5",
+        "price": "349",
+        "image": "/images/pepperonipizza.png"
+    },
+
+    {
+        "_id": 8,
+        "name": "Chocolate Brownie",
+        "description": "Warm brownie with ice cream and chocolate sauce.",
+        "rating": "4.7",
+        "price": "199",
+        "image": "/images/chocolatebrownie.png"
+    },
+
+    {
+        "_id": 9,
+        "name": "Panner Burger",
+        "description": "Grilled paneer with fresh veggies and tangy sauce.",
+        "rating": "4.4",
+        "price": "189",
+        "image": "/images/paneerburger.png"
+    },
+
+    {
+        "_id": 10,
+        "name": "Paneer Biryani",
+        "description": "Delicious paneer cooked with aromatic spices.",
+        "rating": "4.5",
+        "price": "219",
+        "image": "/images/paneerbiryani.png"
+    },
+
+    {
+        "_id": 11,
+        "name": "Mango Shake",
+        "description": "Refreshing mango shake with real mango pulp.",
+        "rating": "4.6",
+        "price": "149",
+        "image": "/images/mangoshake.png"
+    },
+
+    {
+        "_id": 12,
+        "name": "Chicken Nuggets",
+        "description": "Crispy chicken nuggets with dip.",
+        "rating": "4.2",
+        "price": "179",
+        "image": "/images/chickennuggets.png"
+    }
+]

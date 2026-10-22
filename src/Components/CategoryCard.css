@@ -3,7 +3,7 @@
     overflow: hidden;
     text-align: center;
     background-color: #ffffff;
-    
+    border-radius: 12px;
 }
 
 .category-card img {

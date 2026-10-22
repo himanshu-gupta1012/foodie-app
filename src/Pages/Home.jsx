@@ -47,14 +47,14 @@ const Home = () => {
                 <section className="hero">
 
                     <div className="hero-content">
-                        {/* Tagline */}
+                        
                         <p className='tagline'>DELICIOUS FOOD FOR YOU</p>
-                        {/* Main heading */}
+                        
                         <h1>Good Food
                             <br />
                             <span>Good Mood</span>
                         </h1>
-                        {/* Description */}
+                        
                         <div className="statics-des">
                             <p>
                                 Discover a variety of delicious food from the best <br />
@@ -62,7 +62,7 @@ const Home = () => {
                                 delivered to your door.
                             </p>
                         </div>
-                        {/* Order Now button */}
+                        
                         <button className='hero-btn'>Order Now <FaArrowRightLong /></button>
                         {/* Statistics */}
                         <div className="hero-statics">
@@ -134,6 +134,19 @@ const Home = () => {
                     ))}
                 </div>
             </section>
+
+            <div className="lower-banner-outer">
+                <div className="lower-banner-img">
+                    <img src="\images\lowerbanner.png" alt="banner-img" />
+                </div>
+
+                <div className="banner-description">
+                    <p className='p1-banner'>SPECIAL OFFER</p>
+                    <h1>Get<span> 30%OFF</span></h1>
+                    <p className='p2-banner'>On Your First Order</p>
+                    <button className='banner-btn'>Order Now < FaArrowRightLong/></button>
+                </div>
+            </div>
         </>
     )
 }

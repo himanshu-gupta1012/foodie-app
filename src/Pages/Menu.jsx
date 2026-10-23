@@ -40,7 +40,7 @@ const Menu = () => {
         </main>
 
         <div className="main-search">
-          <p className='dish-p'><CiSearch size={20} /></p>
+          <p className='dish-p'><CiSearch size={20} color='gray' /></p>
           <input type="search" placeholder='Search for dishes...' className='dish-search'/>
           <select name="" id="" className='dish-list'>
             <option value="" selected disabled>Sort by: Popular</option>

@@ -17,6 +17,7 @@ const Header = () => {
                     <NavLink to='/fooddetails' className={({isActive}) => isActive ? "active" : ""}>Food Details</NavLink>
                     <NavLink to='/cart' className={({isActive}) => isActive ? "active" : ""}>Cart</NavLink>
                     <NavLink to='/checkout' className={({isActive}) => isActive ? "active" : ""}>Checkout</NavLink>
+                    <NavLink to='/about' className={({isActive}) => isActive ? "active" : ""}>About</NavLink>
                 </div>
 
                 <div className="header-search">

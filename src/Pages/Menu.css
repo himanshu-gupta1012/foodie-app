@@ -1,7 +1,7 @@
 .menu-page {
     position: relative;
     width: 100%;
-    margin: 20px 0;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
 }
@@ -54,7 +54,7 @@
 .main-search {
     position: relative;
     height: 50px;
-    width: 90%;
+    width: 97%;
     /* background-color: aquamarine; */
     margin: 0px auto;
     
@@ -73,8 +73,8 @@
 
 .dish-p {
     position: absolute;
-    right: 200px;
-    top: 36%;
+    right: 210px;
+    top: 35%;
 }
 
 .dish-list {
@@ -82,4 +82,6 @@
     border-radius: 5px;
     padding: 0px 20px;
     border: 2px solid #E7E2DC;
+    font-size: 16px;
+    color: gray;
 }

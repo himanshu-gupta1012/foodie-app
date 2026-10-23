@@ -1,0 +1,126 @@
+.about-container-outer {
+    width: 100%;
+    /* min-height: 100vh; */
+    /* background-color: aquamarine; */
+}
+
+.about-banner-img {
+    position: relative;
+    width: 100%;
+    height: 525px;
+    /* background-color: blue; */
+}
+
+.about-banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-banner-description {
+    position: absolute;
+    content: '';
+    top: 80px;
+    left: 0;
+    width: 60%;
+    height: 525px;
+    /* background-color: yellowgreen; */
+    padding-left: 60px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about-banner-para1 {
+    color: #D6A64F;
+    font-weight: 600;
+}
+
+.about-banner-header {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.about-banner-header span {
+    color: #D6A64F;
+}
+
+.about-banner-para2 {
+    color: white;
+}
+
+.about-main-outer {
+    width: 90%;
+    height: 525px;
+    /* background-color: black; */
+    margin: 80px auto;
+    border-radius: 12px;
+
+    display: flex;
+}
+
+.about-main-left {
+    width: 50%;
+    height: 75%;
+    /* border-radius: 12px; */
+    /* background-color: royalblue; */
+    padding-left: 90px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about-main-right {
+    width: 50%;
+    height: 75%;
+    /* background-color: crimson; */
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.about-main-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    /* border-radius: 12px; */
+}
+
+.about-banner-img img {
+    height: 100%;
+    /* border-radius: 12px; */
+}
+
+.about-main-para1 {
+    color: var(--primary-color);
+    margin-bottom: 4px;
+}
+
+.about-main-header {
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.about-main-para2 {
+    margin-bottom: 15px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.about-main-btn {
+    width: 140px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
